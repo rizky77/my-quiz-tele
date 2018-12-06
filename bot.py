@@ -8,7 +8,7 @@ app = Flask(__name__)
 global bot
 bot = telegram.Bot(token='TOKEN')
 
-
+# test aja 
 @app.route('/HOOK', methods=['POST'])
 def webhook_handler():
     if request.method == "POST":
